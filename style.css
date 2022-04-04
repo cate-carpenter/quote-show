@@ -1,0 +1,43 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap");
+
+body {
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* Extend full height of browser  */
+  height: 100vh;
+  /* Background Images */
+
+  background-image: url("https://assets.codepen.io/5557074/cover+betta");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Apply Font */
+
+/* Add contrast to text */
+blockquote {
+  font-family: "Quicksand", sans-serif;
+  font-size: 6vmin;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+  padding: 1vmin;
+
+  /* Add contrast to text */
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+p {
+  font-size: 6vmin;
+  text-align: center;
+}
