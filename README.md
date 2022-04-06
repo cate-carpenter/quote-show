@@ -1,1 +1,1 @@
-# quote-show
+# fish-quote-show
